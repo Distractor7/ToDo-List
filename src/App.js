@@ -2,13 +2,13 @@
 //Also the actions from toDo.js are imported to be used in the app.
 import { useSelector, useDispatch } from "react-redux";
 import { add, remove, edit, completed } from "./store/toDo";
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
 import Api from "./weatherApi";
 
-import { render } from "@testing-library/react";
-import { Provider } from "react-redux";
-import store from "./store/store";
+// import { render } from "@testing-library/react";
+// import { Provider } from "react-redux";
+// import store from "./store/store";
 
 function App() {
   //Below is the variable that stores the dispatch function.
